@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53619F921EA16D2000D4747 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53619F821EA16D2000D4747 /* AppDelegate.swift */; };
+		D53619FB21EA16D2000D4747 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53619FA21EA16D2000D4747 /* RootViewController.swift */; };
+		D53619FD21EA16D2000D4747 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53619FC21EA16D2000D4747 /* DataViewController.swift */; };
+		D53619FF21EA16D2000D4747 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53619FE21EA16D2000D4747 /* ModelController.swift */; };
+		D5361A0221EA16D2000D4747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5361A0021EA16D2000D4747 /* Main.storyboard */; };
+		D5361A0421EA16D4000D4747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5361A0321EA16D4000D4747 /* Assets.xcassets */; };
+		D5361A0721EA16D4000D4747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5361A0521EA16D4000D4747 /* LaunchScreen.storyboard */; };
+		D5361A1221EA16D4000D4747 /* MaloPolovinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5361A1121EA16D4000D4747 /* MaloPolovinTests.swift */; };
+		D5361A1D21EA16D4000D4747 /* MaloPolovinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5361A1C21EA16D4000D4747 /* MaloPolovinUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5361A0E21EA16D4000D4747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53619ED21EA16D2000D4747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53619F421EA16D2000D4747;
+			remoteInfo = MaloPolovin;
+		};
+		D5361A1921EA16D4000D4747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D53619ED21EA16D2000D4747 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D53619F421EA16D2000D4747;
+			remoteInfo = MaloPolovin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D53619F521EA16D2000D4747 /* MaloPolovin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaloPolovin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53619F821EA16D2000D4747 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53619FA21EA16D2000D4747 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D53619FC21EA16D2000D4747 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D53619FE21EA16D2000D4747 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D5361A0121EA16D2000D4747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5361A0321EA16D4000D4747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5361A0621EA16D4000D4747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5361A0821EA16D4000D4747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5361A0D21EA16D4000D4747 /* MaloPolovinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaloPolovinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5361A1121EA16D4000D4747 /* MaloPolovinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaloPolovinTests.swift; sourceTree = "<group>"; };
+		D5361A1321EA16D4000D4747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5361A1821EA16D4000D4747 /* MaloPolovinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaloPolovinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5361A1C21EA16D4000D4747 /* MaloPolovinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaloPolovinUITests.swift; sourceTree = "<group>"; };
+		D5361A1E21EA16D4000D4747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53619F221EA16D2000D4747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A0A21EA16D4000D4747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A1521EA16D4000D4747 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53619EC21EA16D2000D4747 = {
+			isa = PBXGroup;
+			children = (
+				D53619F721EA16D2000D4747 /* MaloPolovin */,
+				D5361A1021EA16D4000D4747 /* MaloPolovinTests */,
+				D5361A1B21EA16D4000D4747 /* MaloPolovinUITests */,
+				D53619F621EA16D2000D4747 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53619F621EA16D2000D4747 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53619F521EA16D2000D4747 /* MaloPolovin.app */,
+				D5361A0D21EA16D4000D4747 /* MaloPolovinTests.xctest */,
+				D5361A1821EA16D4000D4747 /* MaloPolovinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53619F721EA16D2000D4747 /* MaloPolovin */ = {
+			isa = PBXGroup;
+			children = (
+				D53619F821EA16D2000D4747 /* AppDelegate.swift */,
+				D53619FA21EA16D2000D4747 /* RootViewController.swift */,
+				D53619FC21EA16D2000D4747 /* DataViewController.swift */,
+				D53619FE21EA16D2000D4747 /* ModelController.swift */,
+				D5361A0021EA16D2000D4747 /* Main.storyboard */,
+				D5361A0321EA16D4000D4747 /* Assets.xcassets */,
+				D5361A0521EA16D4000D4747 /* LaunchScreen.storyboard */,
+				D5361A0821EA16D4000D4747 /* Info.plist */,
+			);
+			path = MaloPolovin;
+			sourceTree = "<group>";
+		};
+		D5361A1021EA16D4000D4747 /* MaloPolovinTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5361A1121EA16D4000D4747 /* MaloPolovinTests.swift */,
+				D5361A1321EA16D4000D4747 /* Info.plist */,
+			);
+			path = MaloPolovinTests;
+			sourceTree = "<group>";
+		};
+		D5361A1B21EA16D4000D4747 /* MaloPolovinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5361A1C21EA16D4000D4747 /* MaloPolovinUITests.swift */,
+				D5361A1E21EA16D4000D4747 /* Info.plist */,
+			);
+			path = MaloPolovinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53619F421EA16D2000D4747 /* MaloPolovin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5361A2121EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovin" */;
+			buildPhases = (
+				D53619F121EA16D2000D4747 /* Sources */,
+				D53619F221EA16D2000D4747 /* Frameworks */,
+				D53619F321EA16D2000D4747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaloPolovin;
+			productName = MaloPolovin;
+			productReference = D53619F521EA16D2000D4747 /* MaloPolovin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5361A0C21EA16D4000D4747 /* MaloPolovinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5361A2421EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovinTests" */;
+			buildPhases = (
+				D5361A0921EA16D4000D4747 /* Sources */,
+				D5361A0A21EA16D4000D4747 /* Frameworks */,
+				D5361A0B21EA16D4000D4747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5361A0F21EA16D4000D4747 /* PBXTargetDependency */,
+			);
+			name = MaloPolovinTests;
+			productName = MaloPolovinTests;
+			productReference = D5361A0D21EA16D4000D4747 /* MaloPolovinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5361A1721EA16D4000D4747 /* MaloPolovinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5361A2721EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovinUITests" */;
+			buildPhases = (
+				D5361A1421EA16D4000D4747 /* Sources */,
+				D5361A1521EA16D4000D4747 /* Frameworks */,
+				D5361A1621EA16D4000D4747 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5361A1A21EA16D4000D4747 /* PBXTargetDependency */,
+			);
+			name = MaloPolovinUITests;
+			productName = MaloPolovinUITests;
+			productReference = D5361A1821EA16D4000D4747 /* MaloPolovinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53619ED21EA16D2000D4747 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Programming;
+				TargetAttributes = {
+					D53619F421EA16D2000D4747 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D5361A0C21EA16D4000D4747 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D53619F421EA16D2000D4747;
+					};
+					D5361A1721EA16D4000D4747 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D53619F421EA16D2000D4747;
+					};
+				};
+			};
+			buildConfigurationList = D53619F021EA16D2000D4747 /* Build configuration list for PBXProject "MaloPolovin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53619EC21EA16D2000D4747;
+			productRefGroup = D53619F621EA16D2000D4747 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53619F421EA16D2000D4747 /* MaloPolovin */,
+				D5361A0C21EA16D4000D4747 /* MaloPolovinTests */,
+				D5361A1721EA16D4000D4747 /* MaloPolovinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53619F321EA16D2000D4747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5361A0721EA16D4000D4747 /* LaunchScreen.storyboard in Resources */,
+				D5361A0421EA16D4000D4747 /* Assets.xcassets in Resources */,
+				D5361A0221EA16D2000D4747 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A0B21EA16D4000D4747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A1621EA16D4000D4747 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53619F121EA16D2000D4747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53619FB21EA16D2000D4747 /* RootViewController.swift in Sources */,
+				D53619FF21EA16D2000D4747 /* ModelController.swift in Sources */,
+				D53619FD21EA16D2000D4747 /* DataViewController.swift in Sources */,
+				D53619F921EA16D2000D4747 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A0921EA16D4000D4747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5361A1221EA16D4000D4747 /* MaloPolovinTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5361A1421EA16D4000D4747 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5361A1D21EA16D4000D4747 /* MaloPolovinUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5361A0F21EA16D4000D4747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53619F421EA16D2000D4747 /* MaloPolovin */;
+			targetProxy = D5361A0E21EA16D4000D4747 /* PBXContainerItemProxy */;
+		};
+		D5361A1A21EA16D4000D4747 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D53619F421EA16D2000D4747 /* MaloPolovin */;
+			targetProxy = D5361A1921EA16D4000D4747 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5361A0021EA16D2000D4747 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5361A0121EA16D2000D4747 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5361A0521EA16D4000D4747 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5361A0621EA16D4000D4747 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5361A1F21EA16D4000D4747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5361A2021EA16D4000D4747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5361A2221EA16D4000D4747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5361A2321EA16D4000D4747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5361A2521EA16D4000D4747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaloPolovin.app/MaloPolovin";
+			};
+			name = Debug;
+		};
+		D5361A2621EA16D4000D4747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaloPolovin.app/MaloPolovin";
+			};
+			name = Release;
+		};
+		D5361A2821EA16D4000D4747 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaloPolovin;
+			};
+			name = Debug;
+		};
+		D5361A2921EA16D4000D4747 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MaloPolovinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = EBdn.MaloPolovinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MaloPolovin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53619F021EA16D2000D4747 /* Build configuration list for PBXProject "MaloPolovin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5361A1F21EA16D4000D4747 /* Debug */,
+				D5361A2021EA16D4000D4747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5361A2121EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5361A2221EA16D4000D4747 /* Debug */,
+				D5361A2321EA16D4000D4747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5361A2421EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5361A2521EA16D4000D4747 /* Debug */,
+				D5361A2621EA16D4000D4747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5361A2721EA16D4000D4747 /* Build configuration list for PBXNativeTarget "MaloPolovinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5361A2821EA16D4000D4747 /* Debug */,
+				D5361A2921EA16D4000D4747 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D53619ED21EA16D2000D4747 /* Project object */;
+}
